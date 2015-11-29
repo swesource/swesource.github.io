@@ -1,4 +1,6 @@
-swesource.gihub.io
-==================
+# swesource.gihub.io
 
-swesource site
+The swesource.com website.
+
+## Wiki documentation @ github
+https://help.github.com/categories/writing-on-github/
