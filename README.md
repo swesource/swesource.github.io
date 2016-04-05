@@ -1,4 +1,4 @@
-# swesource.gihub.io
+# swesource.github.io
 
 The swesource.com website.
 
