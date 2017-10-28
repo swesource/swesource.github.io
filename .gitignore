@@ -1,0 +1,34 @@
+#
+# Files & directories that git shall ignore
+#
+# - - - - - - - - - - - - - - - - - - - -
+# Generated/compiled binaries and 
+# executables (from e g Maven)
+# - - - - - - - - - - - - - - - - - - - -
+target/
+*.class
+#
+# - - - - - - - - - - - - - - - - - - - -
+# Native OS
+# - - - - - - - - - - - - - - - - - - - -
+.DS_Store
+#
+# - - - - - - - - - - - - - - - - - - - -
+# IDE - IntelliJ IDEA
+# - - - - - - - - - - - - - - - - - - - -
+/.idea
+*.iml
+#
+# - - - - - - - - - - - - - - - - - - - -
+# IDE - Eclipse
+# - - - - - - - - - - - - - - - - - - - -
+.settings/
+.project
+.classpath
+#
+# - - - - - - - - - - - - - - - - - - - -
+# IDE - NetBeans IDE
+# - - - - - - - - - - - - - - - - - - - -
+nbactions.xml
+nb-configuration.xml
+#
