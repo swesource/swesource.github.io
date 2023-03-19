@@ -21,9 +21,9 @@
     background-color: #08ff08;
 }
 .ss-btn:hover,
-.ss-btn-color:active,
-.ss-btn-color:focus,
-.ss-btn-color:visited {
+.ss-btn:active,
+.ss-btn:focus,
+.ss-btn:visited {
     color: black;
     background-color: #99ff99; !important;
 }
@@ -66,9 +66,6 @@ body {
    align: top;
 }
 .cornerstones-text {
-    color: #08ff08;
-}
-.services-text {
     color: #08ff08;
 }
 .services-header {
