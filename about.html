@@ -13,7 +13,6 @@
     <script crossorigin="anonymous"
             integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-    <script src="includehtml.js"></script>
     <script>
             window.onload = function() {
                 let d = new Date();
@@ -52,24 +51,46 @@
 <div class="container-fluid ss-bg-content">
     <div class="row">
         <div class="col-1">&nbsp;</div>
-        <div class="col-10 text-secondary">
+        <div class="col-8 text-secondary">
             <p>&nbsp;</p>
-            <!--
-            <p class="text-primary fw-bold" style="font-color: #08ff08;">Our history does not matter</p>
-            <p class="text-primary fs-3 fw-bold">Only you and your future matter to us</p>
-            <p class="text-primary fs-2 fw-bold">We deliver what you need with quality and precision</p>
-            <p>&nbsp;</p>
-            -->
             <h1>About</h1>
             <p>
                 Founded on the four cornerstones...<br/>
             </p>
             <p class="fs-4">
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <strong class="cornerstones-text">COMPETENCE</strong>,
-                <strong class="cornerstones-text">DELIVERY</strong>,
-                <strong class="cornerstones-text">DRIVE</strong> &
-                <strong class="cornerstones-text">LOYALTY</strong></td>
+                <button class="btn ss-btn" type="button" data-bs-toggle="collapse" data-bs-target="#competenceCollapse" aria-expanded="false" aria-controls="competenceCollapse">
+                    COMPETENCE
+                </button>
+                <button class="btn ss-btn" type="button" data-bs-toggle="collapse" data-bs-target="#deliveryCollapse" aria-expanded="false" aria-controls="deliveryCollapse">
+                    DELIVERY
+                </button>
+                <button class="btn ss-btn" type="button" data-bs-toggle="collapse" data-bs-target="#driveCollapse" aria-expanded="false" aria-controls="driveCollapse">
+                    DRIVE
+                </button>
+                <button class="btn ss-btn" type="button" data-bs-toggle="collapse" data-bs-target="#loyaltyCollapse" aria-expanded="false" aria-controls="loyaltyCollapse">
+                    LOYALTY
+                </button>
+                <div class="collapse" id="competenceCollapse">
+                    <div class="card card-body bg-dark width300">
+                        Competence from education and experience helps our battle proven to overcome any obstacles.
+                    </div>
+                </div>
+                <div class="collapse" id="deliveryCollapse">
+                    <div class="card card-body bg-dark width300">
+                        Delivery with accuracy and quality is what we pride us with and what sets us apart even more from the rest.
+                    </div>
+                </div>
+                <div class="collapse" id="driveCollapse">
+                    <div class="card card-body bg-dark width300">
+                        Drive is at our core in everything we do, and we will never stop.
+                    </div>
+                </div>
+                <div class="collapse" id="loyaltyCollapse">
+                    <div class="card card-body bg-dark width300">
+                        Loyalty with our clients makes us the most trustworthy partner and ally.
+                    </div>
+                </div>
             </p>
             <p>
                 ...SWESOURCE is well renowned for its Technical Management skills and for always putting its clients first.
@@ -99,11 +120,10 @@
                 physical health and mental well-being.
             </p>
             <h1>Contact</h1>
-
             <p>
             <table>
                 <tr>
-                    <th class="address align-top" rowspan="4">Address</th>
+                    <th id=address" class="address align-top" rowspan="4">Address</th>
                     <td>AB Swesource</td>
                 </tr>
                 <tr>
@@ -120,21 +140,18 @@
             <p>
             <table>
                 <tr>
-                    <th class="phone">Phone</th>
+                    <th id="phone" class="phone">Phone</th>
                     <td><a href="tel:+46793354200">+46793354200</a></td>
                 </tr>
                 <tr>
-                    <th class="address align-top" rowspan="2">Email</th>
+                    <th id="email" class="address align-top" rowspan="2">Email</th>
                     <td><a href="mailto:info@swesource.com">info@swesource.com</a> (for general enquiries)</td>
                 </tr>
                 <tr>
-                    <td><a href="mailto:info@swesource.com">sales@swesource.com</a> (for business opportinities)</td>
+                    <td><a href="mailto:info@swesource.com">sales@swesource.com</a> (for business opportunities)</td>
                 </tr>
-
             </table>
             </p>
-
-            <p>&nbsp;</p>
             <h1>Profile</h1>
             <p>
                 <img alt="swesource-directions-logo"
@@ -148,7 +165,7 @@
                 in various markup-languages such as XML and HTML.<br/>
                 For the company, the logo is a visualisation of movement or direction in <u>different directions</u>
                 (completely opposite) <u>simultaneously</u>, which is a prefect example on how adaptive SWESOURCE
-                can be in its operations.
+                can be in its operations.<br/><br/>
             </p>
             <p>
                 <img alt="swesource-directions-logo"
@@ -161,7 +178,7 @@
             </p>
             <p>&nbsp;</p>
         </div>
-        <div class="col-1">&nbsp;</div>
+        <div class="col-3">&nbsp;</div>
     </div>
 </div>
 
@@ -173,8 +190,8 @@
             <div class="col-4 text-start">
                 <br/>
                 <address>
-                    <strong class="text-primary">AB Swesource</strong> <br/>
-                    Beckombergav.&nbsp;130 <br/>
+                    <strong>AB Swesource</strong> <br/>
+                    Beckombergav&auml;gen&nbsp;130 <br/>
                     168 56 Bromma <br/>
                     Sweden <br/>
                     <a class="text-decoration-none text-dark" href="tel:+46793354200">+46793354200</a> <br/>
