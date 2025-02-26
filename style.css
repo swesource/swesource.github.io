@@ -95,7 +95,20 @@ td.boardmember-content {
 .services-header {
     padding: 10px;
 }
-
+.products-device-header {
+    padding: 10px;
+    text-align: center;
+}
+td.products-device-left {
+    padding-right: 40px;
+    vertical-align: top;
+    width: 60%
+}
+td.products-device-right {
+    padding-left: 40px;
+    vertical-align: top;
+    width: 60%
+}
 
 /* Custom page CSS
  * Not required for template or sticky footer method.
